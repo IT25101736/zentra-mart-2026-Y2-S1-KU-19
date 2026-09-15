@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Zentra-Mart-Generator" version="24.0.0">
+<diagram name="Activity_Diagram:_Moderate_Listings" id="Activity_Diagram:_Moderate_Listings">
+<mxGraphModel dx="1000" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1200" math="0" shadow="0">
+<root>
+<mxCell id="0"/>
+<mxCell id="1" parent="0"/>
+<mxCell id="id3" value="Activity Diagram: Moderate Listings" style="text;html=1;align=center;verticalAlign=middle;fontStyle=1;fontSize=18;fontColor=#1E2761;" vertex="1" parent="1">
+<mxGeometry x="60" y="20" width="500" height="40" as="geometry"/>
+</mxCell>
+<mxCell id="id4" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1E2761;strokeColor=#1E2761;" vertex="1" parent="1">
+<mxGeometry x="280" y="80" width="34" height="34" as="geometry"/>
+</mxCell>
+<mxCell id="id5" value="Open “Listings” section&#10;of admin panel" style="rounded=1;arcSize=28;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#028090;strokeWidth=1.8;fontColor=#12212E;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="140" y="140" width="340" height="70" as="geometry"/>
+</mxCell>
+<mxCell id="id6" value="View flagged / reported listings" style="rounded=1;arcSize=28;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#028090;strokeWidth=1.8;fontColor=#12212E;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="140" y="240" width="340" height="60" as="geometry"/>
+</mxCell>
+<mxCell id="id7" value="Select a listing to review" style="rounded=1;arcSize=28;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#028090;strokeWidth=1.8;fontColor=#12212E;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="140" y="330" width="340" height="60" as="geometry"/>
+</mxCell>
+<mxCell id="id8" value="Listing still&#10;exists?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F9A826;strokeWidth=1.8;fontColor=#12212E;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+<mxGeometry x="210" y="420" width="200" height="100" as="geometry"/>
+</mxCell>
+<mxCell id="id9" value="Show “listing no&#10;longer exists”" style="rounded=1;arcSize=28;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F9A826;strokeWidth=1.8;fontColor=#12212E;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="520" y="430" width="260" height="70" as="geometry"/>
+</mxCell>
+<mxCell id="id10" value="Remove from&#10;review queue" style="rounded=1;arcSize=28;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F9A826;strokeWidth=1.8;fontColor=#12212E;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="520" y="520" width="260" height="60" as="geometry"/>
+</mxCell>
+<mxCell id="id11" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E2761;strokeWidth=2;" vertex="1" parent="1">
+<mxGeometry x="620" y="620" width="38" height="38" as="geometry"/>
+</mxCell>
+<mxCell id="id12" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1E2761;strokeColor=#1E2761;" vertex="1" parent="1">
+<mxGeometry x="627" y="627" width="24" height="24" as="geometry"/>
+</mxCell>
+<mxCell id="id13" value="Review listing details" style="rounded=1;arcSize=28;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#028090;strokeWidth=1.8;fontColor=#12212E;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="140" y="560" width="340" height="60" as="geometry"/>
+</mxCell>
+<mxCell id="id14" value="Approve or&#10;remove?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F9A826;strokeWidth=1.8;fontColor=#12212E;fontStyle=1;fontSize=11;" vertex="1" parent="1">
+<mxGeometry x="200" y="660" width="220" height="110" as="geometry"/>
+</mxCell>
+<mxCell id="id15" value="Update status:&#10;Approved" style="rounded=1;arcSize=28;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#028090;strokeWidth=1.8;fontColor=#12212E;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="60" y="810" width="260" height="70" as="geometry"/>
+</mxCell>
+<mxCell id="id16" value="Record removal reason&#10;in audit trail; update&#10;status: Removed" style="rounded=1;arcSize=28;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F9A826;strokeWidth=1.8;fontColor=#12212E;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="480" y="810" width="300" height="90" as="geometry"/>
+</mxCell>
+<mxCell id="id17" value="Request Notification Service&#10;to notify the seller&#10;(include reason if removed)" style="rounded=1;arcSize=28;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#028090;strokeWidth=1.8;fontColor=#12212E;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+<mxGeometry x="190" y="940" width="380" height="90" as="geometry"/>
+</mxCell>
+<mxCell id="id18" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1E2761;strokeWidth=2;" vertex="1" parent="1">
+<mxGeometry x="350" y="1070" width="38" height="38" as="geometry"/>
+</mxCell>
+<mxCell id="id19" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1E2761;strokeColor=#1E2761;" vertex="1" parent="1">
+<mxGeometry x="357" y="1077" width="24" height="24" as="geometry"/>
+</mxCell>
+<mxCell id="id20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=8;strokeColor=#4A4A4A;strokeWidth=1.4;fontColor=#8A5A12;fontStyle=2;fontSize=11;" edge="1" parent="1" source="id4" target="id5">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="id21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=8;strokeColor=#4A4A4A;strokeWidth=1.4;fontColor=#8A5A12;fontStyle=2;fontSize=11;" edge="1" parent="1" source="id5" target="id6">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="id22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=8;strokeColor=#4A4A4A;strokeWidth=1.4;fontColor=#8A5A12;fontStyle=2;fontSize=11;" edge="1" parent="1" source="id6" target="id7">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="id23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=8;strokeColor=#4A4A4A;strokeWidth=1.4;fontColor=#8A5A12;fontStyle=2;fontSize=11;" edge="1" parent="1" source="id7" target="id8">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="id24" value="[exists]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=8;strokeColor=#4A4A4A;strokeWidth=1.4;fontColor=#8A5A12;fontStyle=2;fontSize=11;" edge="1" parent="1" source="id8" target="id13">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="id25" value="[removed]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=8;strokeColor=#4A4A4A;strokeWidth=1.4;fontColor=#8A5A12;fontStyle=2;fontSize=11;" edge="1" parent="1" source="id8" target="id9">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="id26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=8;strokeColor=#4A4A4A;strokeWidth=1.4;fontColor=#8A5A12;fontStyle=2;fontSize=11;" edge="1" parent="1" source="id9" target="id10">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="id27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=8;strokeColor=#4A4A4A;strokeWidth=1.4;fontColor=#8A5A12;fontStyle=2;fontSize=11;" edge="1" parent="1" source="id10" target="id11">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="id28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=8;strokeColor=#4A4A4A;strokeWidth=1.4;fontColor=#8A5A12;fontStyle=2;fontSize=11;" edge="1" parent="1" source="id13" target="id14">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="id29" value="[approve]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=8;strokeColor=#4A4A4A;strokeWidth=1.4;fontColor=#8A5A12;fontStyle=2;fontSize=11;" edge="1" parent="1" source="id14" target="id15">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="id30" value="[remove]" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=8;strokeColor=#4A4A4A;strokeWidth=1.4;fontColor=#8A5A12;fontStyle=2;fontSize=11;" edge="1" parent="1" source="id14" target="id16">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="id31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=8;strokeColor=#4A4A4A;strokeWidth=1.4;fontColor=#8A5A12;fontStyle=2;fontSize=11;" edge="1" parent="1" source="id15" target="id17">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="id32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=8;strokeColor=#4A4A4A;strokeWidth=1.4;fontColor=#8A5A12;fontStyle=2;fontSize=11;" edge="1" parent="1" source="id16" target="id17">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell id="id33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=8;strokeColor=#4A4A4A;strokeWidth=1.4;fontColor=#8A5A12;fontStyle=2;fontSize=11;" edge="1" parent="1" source="id17" target="id18">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+</root>
+</mxGraphModel>
+</diagram>
+</mxfile>
